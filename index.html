@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="彩虹配色隐私政策，说明应用在图片取色、配色收藏、图片保存、系统分享等功能中的数据处理方式。"
+  />
+  <title>彩虹配色隐私政策</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --subtle: #4b5563;
+      --line: #e5e7eb;
+      --accent: #2563eb;
+      --shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", Arial, sans-serif;
+      background: linear-gradient(180deg, #eef4ff 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(229, 231, 235, 0.9);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero {
+      padding: 36px 28px 24px;
+      background: linear-gradient(135deg, #2d5bff 0%, #6f7dff 45%, #76b7ff 100%);
+      color: #fff;
+    }
+
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: 32px;
+      line-height: 1.25;
+    }
+
+    .hero p {
+      margin: 0;
+      font-size: 15px;
+      opacity: 0.95;
+    }
+
+    .content {
+      padding: 28px;
+    }
+
+    h2 {
+      margin: 28px 0 12px;
+      font-size: 22px;
+      line-height: 1.4;
+      color: #111827;
+    }
+
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: var(--text);
+    }
+
+    ol, ul {
+      margin: 0 0 14px 24px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+
+    .meta {
+      margin: 0 0 20px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #f9fbff;
+      color: var(--subtle);
+      font-size: 14px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--subtle);
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        padding: 16px 12px 32px;
+      }
+
+      .hero {
+        padding: 24px 18px 18px;
+      }
+
+      .hero h1 {
+        font-size: 26px;
+      }
+
+      .content {
+        padding: 18px;
+      }
+
+      h2 {
+        font-size: 19px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <header class="hero">
+        <h1>彩虹配色隐私政策</h1>
+        <p>欢迎使用“彩虹配色”。我们非常重视你的个人信息和隐私保护。</p>
+      </header>
+
+      <div class="content">
+        <div class="meta">
+          生效时间：2026-08-10
+        </div>
+
+        <p>
+          欢迎使用“彩虹配色”。我们非常重视你的个人信息和隐私保护。本应用主要提供配色浏览、图片取色、扑克牌色卡、
+          配色收藏、保存图片和系统分享等功能。为说明这些功能如何处理数据，特制定本隐私政策。
+        </p>
+
+        <h2>一、我们处理的信息范围</h2>
+        <p>本应用不会要求你注册账号，也不默认收集姓名、手机号、身份证号等直接身份信息。</p>
+        <p>在你使用具体功能时，应用可能处理以下信息：</p>
+        <ol>
+          <li>
+            <strong>图片选择信息</strong><br />
+            当你主动使用“从相册选择图片”或“拍照取色”功能时，系统会通过 HarmonyOS 提供的图片选择器或相机能力返回你选中的图片资源，用于本地分析图片颜色。
+          </li>
+          <li>
+            <strong>本地配色与收藏数据</strong><br />
+            当你使用配色收藏、扑克牌风格、风格排序、页面状态恢复等功能时，应用会在设备本地存储必要的数据，包括配色名称、颜色值、卡片顺序、收藏记录和部分页面偏好设置。
+          </li>
+          <li>
+            <strong>图片导出与系统分享文件</strong><br />
+            当你主动执行“保存到相册”或“系统分享”时，应用会在设备缓存目录生成待导出的图片文件，并按你的操作写入系统相册或交由系统分享面板发送。
+          </li>
+          <li>
+            <strong>震动反馈</strong><br />
+            当你长按拖拽色卡时，应用会调用设备震动能力提供交互反馈。
+          </li>
+        </ol>
+
+        <h2>二、我们如何使用这些信息</h2>
+        <p>我们处理上述信息仅用于以下目的：</p>
+        <ol>
+          <li>完成图片取色、拍照取色和颜色分析。</li>
+          <li>保存你收藏的配色方案和界面偏好。</li>
+          <li>生成色卡快照并保存到系统相册。</li>
+          <li>通过系统分享面板分享色卡图片。</li>
+          <li>提供拖拽排序时的震动反馈。</li>
+        </ol>
+        <p>我们不会将你的图片内容、配色收藏或本地偏好上传到开发者自建服务器。</p>
+
+        <h2>三、我们使用的系统能力与权限</h2>
+        <p>当前版本涉及的主要系统能力如下：</p>
+        <ol>
+          <li><strong>相册选择器</strong>：用于你主动选择图片进行取色分析。</li>
+          <li><strong>相机能力</strong>：用于你主动拍照后取色分析。</li>
+          <li><strong>系统相册写入能力</strong>：用于你主动将色卡图片保存到系统相册。</li>
+          <li><strong>系统分享能力</strong>：用于你主动分享色卡图片。</li>
+          <li><strong>振动权限 `ohos.permission.VIBRATE`</strong>：用于长按拖拽色卡时提供震动反馈。</li>
+        </ol>
+
+        <h2>四、数据存储与保留</h2>
+        <ol>
+          <li>配色收藏、扑克牌风格数据和部分页面偏好会保存在你的设备本地数据库或本地偏好存储中。</li>
+          <li>分享或保存时生成的图片文件会先写入本地缓存目录，再根据你的操作写入系统相册或交由系统分享能力处理。</li>
+          <li>你卸载应用后，本地应用数据通常会随应用一起删除；系统相册中已保存的图片是否保留，以系统实际行为为准。</li>
+        </ol>
+
+        <h2>五、第三方共享说明</h2>
+        <ol>
+          <li>本应用不向第三方 SDK 主动提供你的个人信息。</li>
+          <li>当你主动使用系统分享功能时，相关图片文件会由 HarmonyOS 系统分享面板交给你选择的目标应用，该过程受目标应用及系统机制约束。</li>
+        </ol>
+
+        <h2>六、你的权利</h2>
+        <p>你可以通过以下方式管理相关数据：</p>
+        <ol>
+          <li>不使用图片选择、拍照、保存到相册或分享功能。</li>
+          <li>在系统设置中管理相关系统授权。</li>
+          <li>删除应用内收藏配色或卸载应用。</li>
+          <li>删除系统相册中由本应用保存的图片。</li>
+        </ol>
+
+        <h2>七、未成年人保护</h2>
+        <p>若你是未成年人，建议在监护人陪同下阅读本政策，并在监护人同意后使用相关功能。</p>
+
+        <h2>八、隐私政策更新</h2>
+        <p>当应用功能或数据处理方式发生变化时，我们可能更新本政策。更新后的版本将随应用版本或项目文档一并发布。</p>
+
+        <h2>九、联系我们</h2>
+        <p>开发者：李国雄（lgx1972 / 大熊）</p>
+        <p>邮箱：<a href="mailto:lgx1972@gmail.com">lgx1972@gmail.com</a></p>
+        <p>电话：0592-5146483</p>
+        <p>QQ：402408442</p>
+
+        <div class="footer">
+          本页面用于“彩虹配色”应用的隐私政策公示与应用市场审核展示。
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
